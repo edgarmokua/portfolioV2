@@ -1,0 +1,149 @@
+
+#hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 100vh;
+  padding-left: 7%;
+ position: relative;
+
+}
+.hero-container {
+ width: 40vw;
+ margin-bottom: 3rem;
+}
+.donut{
+  position: absolute;
+  right: 0;
+width: 40vw;
+height: 80vh;
+}
+.type {
+  line-height: 6rem;
+}
+.Typist .Cursor--blinking {
+  color: #64ffda;
+  padding-left: 4px;
+}
+.textOne {
+  color: #64ffda;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.textTwo {
+  font-size: 7rem;
+  font-weight: 400;
+  color: #ccd6f6;
+  margin-left: -0.45rem;
+}
+.textThree {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #8892b0;
+  margin-left: -0.2rem;
+
+}
+.summary {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #808aa7;
+  line-height: 2.5rem;
+}
+.btnmore {
+  background: #0a192f;
+  color: #64ffda;
+  border: 0.1rem solid #64ffda;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'NTR', sans-serif;
+  margin-top: 5rem;
+
+}
+.btnmore:hover {
+  background: #64ffda;
+  color: #0a192f;
+  border: 0.1rem solid #0a192f;
+}
+.mail{
+  font-size: 2rem; 
+   margin-right: 1rem;
+}
+.light{
+  color: #64ffda;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #hero {
+    padding-left: 2rem;
+    height: 100%;
+  }
+ .hero-container {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+  .donut{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 80vh;
+  }
+
+}
+@media (min-width: 0px) and (max-width: 425px) {
+#hero{
+  min-height: unset;
+  padding-left: unset;
+  margin:0;
+  align-items: center;
+  position: relative;
+  
+}
+.hero-container{
+  width: 100%;
+  margin-bottom: 3rem;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 0 2rem;
+}
+.donut{
+  position: absolute;
+    width: 50%;
+    height: 40%;
+  left: 30%;
+  top: 40%;
+  
+}
+.type{
+  line-height: 3rem;
+}
+.textOne{
+  font-size: 1.5rem;
+}
+.textTwo{
+  font-size: 4rem;
+}
+.textThree{
+  font-size: 2rem;
+}
+.summary{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.btnmore{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-top: 2rem;
+  display: inline;
+  text-align: center;
+}
+.mail{
+  font-size: 1.5rem;
+}
+
+}
