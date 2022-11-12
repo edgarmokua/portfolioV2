@@ -82,15 +82,14 @@ const JobList = () => {
 
   const experienceItems = {
     "Arklight International": {
-      jobTitle: "Software Engineer Intern @",
-      duration: "SEP 2022 - PRESENT",
+      jobTitle: "Software Engineer @",
+      duration: "APR 2022 - PRESENT",
       desc: [
-        "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, React , Node JS and MySQL.",
-        "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
+        "Spearheaded implementation of watertight Principle of Least Authority across 100% of software engineering and associated team members.",
+        "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness while 28% faster load time than industry average",
         "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use.",
         "Collaborate with experienced cross-disciplinary Engineers to conceive, design, and bring innovative in-house and client products to life.",
-        "Taught grade 4 to grade 8 students about the basics of programming using Scratch and helped them learn to code through building games.",
-      ],
+             ],
     },
     Freelance: {
       jobTitle: "Software Developement Engineer @",
