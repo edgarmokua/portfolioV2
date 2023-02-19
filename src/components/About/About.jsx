@@ -21,7 +21,7 @@ const About = () => {
     "React.js",
     "Java",
     "Node.js",
-    "HTML & CSS",
+    "React Native",
     "Typescript",
     "Three JS",
     "SQL",
@@ -36,17 +36,15 @@ const About = () => {
       <div className="container">
         <p className="about-text" data-aos="fade-up"  data-aos-duration="2000"  data-aos-delay="50">
           Hello! My name is Edgar and I enjoy creating things that live on the
-          internet. I am a <span className="highlight"> 4th year </span>Business
-          Information Technology student at the{" "}
+          internet. I am a <span className="highlight"> Software Engineer </span>with over{" "}
           <span className="highlight">
             {" "}
-            Jomo Kenyatta University of Agriculture and Technology.
+            4 years experience in development
           </span>{" "}
           I am passionate about building software that is both beautiful and
           functional. I am currently{" "}
           <span className="highlight">
-            looking for a full-time graduate software engineering position for
-            2023.
+          open to new opportunities so feel free to reach out.
           </span>
           <div className="about-description">
             {"Here are some technologies I have been working with:"}
