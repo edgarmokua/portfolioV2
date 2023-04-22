@@ -109,7 +109,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item" data-aos="fade-up"  data-aos-duration="2000" data-aos-delay="200">
-              <a href="/JAMES EDGAR MOKUA SOFTWARE ENGINEER RESUME.pdf" target="_blank">
+              <a href="/JAMES MOKUA SOFTWARE ENGINEER RESUME.pdf" target="_blank">
               <button className="btn">Resume</button>
               </a>
             </li>

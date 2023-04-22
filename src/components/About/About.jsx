@@ -25,6 +25,7 @@ const About = () => {
     "Typescript",
     "Three JS",
     "SQL",
+    "Next JS",
   ];
 
   const tech_items = tech_stack.map((stack) => <li>{stack}</li>);
@@ -39,7 +40,7 @@ const About = () => {
           internet. I am a <span className="highlight"> Software Engineer </span>with over{" "}
           <span className="highlight">
             {" "}
-            4 years experience in development
+            5 years experience in development
           </span>{" "}
           I am passionate about building software that is both beautiful and
           functional. I am currently{" "}
