@@ -82,7 +82,7 @@ const JobList = () => {
 
   const experienceItems = {
     "M-Builds": {
-      jobTitle: "Software Engineer @",
+      jobTitle: "Lead Software Engineer @",
       duration: "JAN 2022 - PRESENT",
       desc: [
        " Successfully completed several high-profile software projects, including a customer portal that increased customer engagement by 40% and an inventory management system that reduced inventory errors by 30%",
