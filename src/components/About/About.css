@@ -93,7 +93,7 @@ hr {
   font-weight: bold;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 576px) and (max-width: 1023px){
 #about {
   height: 100%;
 }
@@ -104,7 +104,7 @@ hr {
   margin-left: 2rem;
 }
 }
-@media (min-width: 0px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 575.98px) {
   #about {
     height: 100%;
     

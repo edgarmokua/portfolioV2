@@ -112,12 +112,12 @@
     font-size: 19px;
     font-weight: bold;
   }
-  @media (min-width: 768px) and (max-width: 1023px){
+  @media (min-width: 576px) and (max-width: 1023px){
     #experience{
       margin-bottom: 5rem;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 575.98px) {
     #experience {
       padding-left: unset;
       padding-right: unset;

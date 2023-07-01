@@ -77,7 +77,7 @@ height: 80vh;
 .light{
   color: #64ffda;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 1023px) {
   #hero {
     padding-left: 2rem;
     height: 100%;
@@ -94,7 +94,7 @@ height: 80vh;
   }
 
 }
-@media (min-width: 0px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 575.98px) {
 #hero{
   min-height: unset;
   padding-left: unset;
